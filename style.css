@@ -2,9 +2,6 @@
   max-width: 42em;
 }
 /* -------------Index------------- */
-.acceuilImg{
-  max-width: 100%;
-}
 .acceuilBody{
   background-color: #0a0019;
 }
@@ -17,7 +14,6 @@
 .acceuilBtn:hover {
   color: white;
 }
-
 /* -------------Index End------------- */
 /* -------------Landing Page------------- */
 .landingNav .nav-link {
@@ -68,7 +64,6 @@
   box-shadow: none;
 }
 /* -------------Landing Page End------------- */
-
 /* -------------Pomodoro------------- */
 .pomodoroNav .nav-link {
   padding: .25rem 0;
@@ -101,3 +96,128 @@
   margin-top: 10%;
 }
 /* -------------Pomodoro End------------- */
+/* -------------Markdown------------- */
+.markdownNavJour .nav-link {
+  padding: .25rem 0;
+  color: black;
+  font-size: 20px;
+  background-color: transparent;
+  border-bottom: 3px solid transparent;
+}
+.markdownNavJour .nav-link:hover,
+.markdownNavJour .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+.markdownNavJour .active {
+  color: black;
+  border-bottom-color: black;
+}
+
+.markdownNavNuit .nav-link {
+  padding: .25rem 0;
+  color: white;
+  font-size: 20px;
+  background-color: transparent;
+  border-bottom: 3px solid transparent;
+}
+.markdownNavNuit .nav-link:hover,
+.markdownNavNuit .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+.markdownNavNuit .active {
+  color: white;
+  border-bottom-color: white;
+}
+.navTrucMarkdownNuit{
+  background-color: black;
+  border: 2px white solid;
+}
+.textEditorJour{
+    height: 80vh;
+    overflow-wrap: break-word;
+    overflow: scroll;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: #F5F5F5;
+    color: black;
+}
+.textEditorJour::-webkit-scrollbar {
+    display: none;
+}
+
+.markdownH3{
+    background-color: #CCCCCC;
+    border: 1px black solid;
+}
+
+.textEditorNuit{
+    height: 80vh;
+    overflow-wrap: break-word;
+    overflow: scroll;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: #7a7a7a;
+    color: white;
+}
+.textEditorNuit::-webkit-scrollbar {
+    display: none;
+}
+
+/* main css */
+.textEditorJour{
+  height: 80vh;
+  overflow-wrap: break-word;
+  overflow: scroll;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: #F5F5F5;
+  color: black;
+}
+.textEditorJour::-webkit-scrollbar {
+  display: none;
+}
+
+.markdownH3{
+  background-color: #CCCCCC;
+  border: 1px black solid;
+}
+
+.textEditorNuit{
+  height: 80vh;
+  overflow-wrap: break-word;
+  overflow: scroll;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: #7a7a7a;
+  color: white;
+}
+.textEditorNuit::-webkit-scrollbar {
+  display: none;
+}
+
+.markdownH2Jour{
+  color: black;
+}
+.markdownH2Nuit{
+  color: white;
+}
+.iconJour{
+  color: black;
+}
+.iconNuit{
+  color: white;
+}
+.markdownH2Jour{
+  color: black;
+}
+.markdownH2Nuit{
+  color: white;
+}
+.iconJour{
+  color: black;
+}
+.iconNuit{
+  color: white;
+}
+/* main css end */
+/* -------------Markdown End------------- */
